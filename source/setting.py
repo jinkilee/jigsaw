@@ -1,0 +1,13 @@
+train_filename='your_filename.csv'
+best_bert_name='bert-base-uncased'
+model_path='your_model_path'
+vocab_filename='your_vocab_filename'
+max_len=128
+batch_size=16
+num_train_epochs=10
+dist_url='env://'
+random_state=100
+text_col='comment_text'
+target_col='target'
+learning_rate=2e-5
+use_cpu=False
